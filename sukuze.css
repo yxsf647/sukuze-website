@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #d3cccc;
+  }
+  
+  header {
+    background-color: #2b729f;
+    color:white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo h1 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #f5b041;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  
+  header nav ul li a:hover {
+    color: #f5b041;
+  }
+  
+  .hero {
+    text-align: center;
+    background: url('sukuze\ image\ 6.webp');
+    height:max-content;
+    color: white;
+    padding: 100px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+    margin: 0 0 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    text-decoration: none;
+    background-color: #89b009;
+    color: #222;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .hero .btn:hover {
+    opacity: 0.6;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .service {
+    margin: 20px 0;
+  }
+  
+  .service h3,
+  .service h4,
+  .service h5 {
+    color: #0d0c0c;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #f5b041;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #d68910;
+  }
+  
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer .line1,
+  footer .line2 {
+    color: #f5b041;
+  }
+  
